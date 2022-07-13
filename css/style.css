@@ -1,0 +1,925 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #F5F5F5;
+  }
+* {
+    box-sizing: border-box;
+}
+/*-- Hero Section Start --*/
+.h-hero-section {
+    background-color: #FFE3EB;
+}
+.hero-title {
+    margin: 15px 0px 0px 0px;
+}
+.hero-title h1 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #303030;
+
+}
+.hero-title p {
+    font-family: "Mulish", Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #303030;
+}
+.hero-button {
+    margin: 40px 0px;
+    text-align: center;
+}
+.button-one {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    text-decoration: none;
+    text-align: center;
+    background: #AF1F47;
+    border-radius: 30px;
+    padding: 15px 28px;
+    margin: 0px 5px 0px 0px;
+    border: 1px solid #AF1F47;
+}
+.button-one:hover{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #303030;
+    border: 1px solid #303030;
+    font-family: "Poppins", Sans-serif;
+    text-align: center;
+    background: #af1f4800;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 15px 28px;
+    transition: all 500ms ease;
+}
+.button-two {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #303030;
+    text-decoration: none;
+    font-family: "Poppins", Sans-serif;
+    text-align: center;
+    border: 1px solid #303030;
+    border-radius: 30px;
+    padding: 15px 28px;
+    margin: 0px 0px 0px 5px;
+    border: 1px solid #303030;
+}
+.button-two:hover{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ffffff;
+    font-family: "Poppins", Sans-serif;
+    text-align: center;
+    text-decoration: none;
+    background: #AF1F47;
+    border-radius: 30px;
+    padding: 15px 28px;
+    transition: all 500ms ease;
+}
+.hero-img img {
+    width: 100%;
+    height: auto;
+}
+
+/*-- Hero Section End --*/
+
+/*-- Trusted By Section Start --*/
+
+.trusted-section{
+    background-color: #ffffff;
+    padding: 20px 0px 20px 0px;
+}
+.trusted-section h2 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    color: #303030;
+    text-align: center;
+}
+.trusted-section p {
+    font-family: "Mulish", Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #303030;
+}
+/*-- Carousel Css Start --*/
+.slider {
+    width: 100%;
+    margin: 0px;
+}
+
+.slick-slide {
+  margin: 0px 10px;
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+/*-- Carousel Css End --*/
+
+/*-- Trusted By Section End --*/
+
+/*-- Bundle Offer Section Start --*/
+
+.bundle-section {
+    padding: 30px 0px 20px 0px;
+}
+.bundle-section h2 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: #E64C7E;
+    text-align: center;
+}
+.bundle-section p {
+    font-family: "Mulish", Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #303030;
+}
+
+/*-- Course Box Card Section Start --*/
+
+.course-box-card {
+    background-color: #ffffff;
+    padding: 18px;
+    margin: 20px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 5%);
+}
+.course-box-card-t {
+    background-color: #ffffff;
+    padding: 18px;
+    margin: 0px;
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 5%);
+}
+.course-box-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.course-box-reviews img {
+    width: 72%;
+    height: auto;
+    margin: -15px 0px 05px 0px;
+}
+.course-box-price {
+    margin: 0px 0px 5px 0px;
+}
+.course-box-title h2 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #303030;
+    text-align: left;
+    padding: 15px 0px 10px 0px;
+}
+.course-box-discount {
+    background-color: #F90000;
+    position: absolute;
+    width: 75px;
+    height: 25px;
+    bottom: 50px;
+    right: 65px;
+    margin: 0px;
+    padding: 2px;
+    border-radius: 5px;
+}
+.course-box-discount p {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.course-box-price del {
+    font-family: "Mulish", Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    text-decoration-line: line-through;
+    color: #303030;
+}
+.course-box-price span {
+    font-family: "Mulish", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #303030;
+    margin-left: 8px;
+}
+.course-box-short-title h2{
+    font-family: "Mulish", Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: 0.01em;
+    color: #E64C7E;
+}
+.course-box-button {
+    background-color: #303030;;
+    margin: -30px 20px 20px 20px;
+    padding: 12px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    border: 1px solid #eee;
+}
+.course-box-button-t {
+    background-color: #303030;;
+    margin: -20px 0px 20px 0px;
+    padding: 12px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    border: 1px solid #eee;
+}
+.course-box-button:hover {
+    background: #C82754;
+    transition: all 500ms ease;
+}
+.course-box-button-t:hover {
+    background: #C82754;
+    transition: all 500ms ease;
+}
+.course-box-button a {
+    font-family: "Poppins", Sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin: 5px 0px 0px 0px;
+}
+.course-box-button-t a {
+    font-family: "Poppins", Sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    margin: 5px 0px 0px 0px;
+}
+.course-box-button a img {
+    width: 20px;
+    display: inline;
+    margin-left: 5px;
+}
+.course-box-button-t a img {
+    width: 20px;
+    display: inline;
+    margin-left: 5px;
+}
+.view-more-btn {
+    background-color: #AF1F47;
+    margin: 15px 100px 15px 100px;
+    padding: 18px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid #AF1F47;
+}
+.view-more-btn-t {
+    background-color: #AF1F47;
+    margin: 15px 85px 15px 85px;
+    padding: 18px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid #AF1F47;
+}
+.view-more-btn a {
+    font-family: "Poppins", Sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.view-more-btn-t a {
+    font-family: "Poppins", Sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.view-more-btn a img {
+    margin-left: 5px;
+}
+.view-more-btn-t a img {
+    margin-left: 5px;
+}
+
+/*-- Course Box Card Section End --*/
+
+/*-- Trending Courses Section Start --*/
+
+section.trending-courses-section {
+    margin: 20px 15px;
+}
+.trending-title h2 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: #E64C7E;
+    text-align: center;
+}
+
+/*-- Trending Courses Section End --*/
+
+/*-- Accredited Courses Section Start --*/
+
+section.accredited-courses-section {
+    margin: 35px 15px;
+}
+.accredited-title h2 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: #E64C7E;
+    text-align: center;
+}
+
+/* Accredited Courses Section End */
+
+/*-- Accordion css Start --*/
+
+.accordion-button:not(.collapsed) {
+    color: #303030;
+    background-color: #e7f1ff00;
+    box-shadow: inset 0 -1px 0 rgb(0 0 0 / 0%);
+}
+.accordion-button {
+    background-color: #f4f4f4;
+    padding: 1rem 0rem;
+}
+.accordion-item {
+    background-color: #30303000;
+    border: 1px solid rgb(0 0 0 / 0%);
+    border-bottom: 1px solid #DADADA ;
+}
+.accordion-button:focus {
+    z-index: 3;
+    border-color: #86b6fe00;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(13, 109, 253, 0);
+}
+.accordion-body{
+    padding: 0px;
+}
+button.accordion-button {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #303030;
+}
+
+/*-- Accordion css End --*/
+
+/*-- Courses Category Section Start --*/
+
+.course-cat-section {
+    margin: 25px 0px 25px 0px;
+    background-color: #FFE3EB;
+    padding: 30px 0px 30px 0px;
+}
+.course-cat-title h2 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: #E64C7E;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.course-cat-box {
+    background-color: #fff;
+    padding: 10px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
+    box-shadow: 0px 5px 15px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+}
+.course-cat-box-icon img {
+    width: 40px;
+    float: right;
+    margin-right: -15px;
+}
+.course-cat-box-title h2 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 45px;
+    text-align: left;
+    letter-spacing: 0.005em;
+    color: #303030;
+    vertical-align: middle;
+}
+.course-cat-btn {
+    background-color: #AF1F47;
+    margin: 35px 75px 15px 75px;
+    padding: 18px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid #AF1F47;
+}
+.course-cat-btn a {
+    font-family: "Poppins", Sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+/*-- Courses Category Section End --*/
+
+/*-- Student ID Card Section Start --*/
+
+.student-card-section {
+    margin: 30px 0px 30px 0px;
+}
+.student-card-title h2 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: #E64C7E;
+    text-align: center;
+}
+.student-card-description p {
+    font-family: "Mulish", Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #303030;
+    text-align: center;
+}
+.student-card-img img {
+    width: 100%;
+}
+.student-icon-list {
+    display: inline-flex;
+    margin-top: 15px;
+}
+.student-icon-list img {
+    width: 60%;
+    background-color: #fff;
+    padding: 7px;
+    border-radius: 40px;
+}
+.student-icon-list h2 {
+    font-family: "Mulish", Sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #565665;
+}
+
+/* Student ID Card Section End */
+
+/*-- Staff Training Section Start --*/
+
+.staff-section {
+    padding: 30px 0px 30px 0px;
+    background-color: #E64C7E;
+}
+.staff-title h2 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    text-align: center;
+}
+.staff-description p {
+    font-family: "Mulish", Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.staff-img img {
+    width: 100%;
+}
+.staff-icon-list {
+    display: inline-flex;
+    margin-top: 15px;
+}
+.staff-icon-list p {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.staff-icon-list img {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 30%;
+}
+.staff-btn {
+    background-color: #ffffff;
+    margin: 35px 60px 15px 60px;
+    padding: 18px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid #ffffff;
+}
+.staff-btn a {
+    font-family: "Poppins", Sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: #AF1F47;
+}
+
+/*-- Staff Training Section End --*/
+
+/*-- Valuable Feedback Section Start --*/
+
+.feedback-section {
+    margin: 30px 0px 0px 0px;
+}
+.feedback-title h2 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: #E64C7E;
+    text-align: center;
+}
+.feedback-description p {
+    font-family: "Mulish", Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.01em;
+    color: #303030;
+    text-align: center;
+}
+
+/*-- Valuable Feedback Section End --*/
+
+/*-- Gift Card Section Start --*/
+
+.gift-card-section {
+    background-color: #ffffff;
+    padding: 30px 0px 30px 0px;
+}
+.gift-card-title h2 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #E64C7E;
+    text-align: center;
+}
+.gift-card-description p {
+    font-family: "Mulish", Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #303030;
+}
+.gift-card-img img {
+    width: 100%;
+    margin-top: -35px;
+}
+.gift-icon-list {
+    display: inline-flex;
+    margin-top: 15px;
+}
+.gift-icon-list p {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #303030;
+}
+.gift-icon-list img {
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 30%;
+}
+.gift-btn {
+    background-color: #AF1F47;
+    margin: 35px 60px 15px 60px;
+    padding: 18px;
+    border-radius: 30px;
+    text-align: center;
+    border: 1px solid #AF1F47;
+}
+.gift-btn a {
+    font-family: "Poppins", Sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: right;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+/*-- Gift Card Section End --*/
+
+/*-- Success Stories Section Start --*/
+
+.success-storie-section {
+    margin: 30px 0px 30px 0px;
+}
+.success-title h2 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #E64C7E;
+}
+.success-description p {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #303030;
+}
+.success-storie-video {
+    background-image: url(https://lead-academy.org/wp-content/uploads/2022/06/55663-2-min.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 260px;
+    padding-top: 95px;
+}
+
+/*-- Play Button css --*/
+
+#storie-video {
+    font-size: 25px;
+    width: 65px;
+    height: 65px;
+    background-color: #AF1F47;
+    border: 0;
+    border-radius: 50%;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 2px rgba(0, 0, 0, 0.25);
+    
+    /* ----- Transformations ----- */
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+    
+    /* ----- Transitions ----- */
+    -webkit-transition: transform .5s ease;
+    -moz-transition: transform .5s ease;
+    -ms-transition: transform .5s ease;
+    -o-transition: transform .5s ease;
+    transition: transform .5s ease;
+  }
+  
+  #storie-video:hover {
+    /* ----- Transformations ----- */
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    
+    /* ----- Transitions ----- */
+    -webkit-transition: transform .5s ease;
+    -moz-transition: transform .5s ease;
+    -ms-transition: transform .5s ease;
+    -o-transition: transform .5s ease;
+    transition: transform .5s ease;
+  }
+  
+  #storie-video > i {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgba(255, 255, 255, 0.2);
+    position: relative;
+    margin-top: 4px;
+    margin-left: 6px;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -ms-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease;
+  }
+  
+  #storie-video:hover > i {
+    color: white;
+    -webkit-transition: color .5s ease;
+    -moz-transition: color .5s ease;
+    -ms-transition: color .5s ease;
+    -o-transition: color .5s ease;
+    transition: color .5s ease;
+  }
+  
+  #lightbox {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.95);
+  }
+  
+  #video-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+  }
+  
+  #close-btn {
+    color: #E64C7E;
+    font-size: 25px;
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    z-index: 2;
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+    -webkit-transition: transform .5s ease, color .5s ease;
+    -moz-transition: transform .5s ease, color .5s ease;
+    -ms-transition: transform .5s ease, color .5s ease;
+    -o-transition: transform .5s ease, color .5s ease;
+    transition: transform .5s ease, color .5s ease;
+  }
+  
+  #close-btn:hover {
+    color: white;
+    cursor: pointer;
+    
+    /* ----- Transformations ----- */
+    -webkit-transform: scale(1.2, 1.2);
+    -moz-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    -o-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    
+      /* ----- Transitions ----- */
+    -webkit-transition: transform .5s ease, color .5s ease;
+    -moz-transition: transform .5s ease, color .5s ease;
+    -ms-transition: transform .5s ease, color .5s ease;
+    -o-transition: transform .5s ease, color .5s ease;
+    transition: transform .5s ease, color .5s ease;
+  }
+
+  /*-- Success Stories Section End --*/
+
+  /*-- Free Course Section Start --*/
+.free-courses-section {
+    padding: 30px 0px 30px 0px;
+    background-color: #E64C7E;
+}
+.free-title h2 {
+    font-family: "Poppins", Sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.free-description p {
+    font-family: "Mulish", Sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+
+
+.disclaimer{
+    display: none;
+}

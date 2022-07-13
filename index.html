@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Skeleton Loading using CSS</title>
+  </head>
+  <body>
+    <div class="container">
+      <template id="card-template">
+        <div class="row">
+          <div class="col-sm-12">
+              <div class="course-box-card">
+                  <div class="skeleton course-box-img">
+                      <img class="skeleton" id="course-img" alt="">
+                  </div>
+                  <div class="course-box-title">
+                      <h2 id="course-title">
+                        <div class="skeleton skeleton-text"></div>
+                        <div class="skeleton skeleton-text"></div>
+                      </h2>
+                  </div>
+                  <div class="course-box-reviews skeleton skeleton-text__body">
+                      <img class="" id="review-img" alt="">
+                  </div>
+                  <div class="course-box-price skeleton skeleton-text__body">
+                      <del id="regular-price"></del><span id="sale-price"></span>
+                  </div>
+                  <div class="course-box-short-title">
+                      <h2 id="short-title">
+                        <div class="skeleton skeleton-text"></div>
+                      </h2>
+                  </div>
+              </div>
+              <div class="course-box-button">
+                  <a id="course-link" target="_blank">View Course <img src="https://lead-academy.org/wp-content/uploads/2022/06/Vector.svg" alt=""></a>
+              </div>
+          </div>
+      </div>
+      </template>
+    </div>
+
+    <!-- Install ION ICONS via CDN -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script>
+      //Clone the card template
+      const container = document.querySelector(".container");
+      const cardTemplate = document.getElementById("card-template");
+      for (let i = 0; i < 10; i++) {
+        container.append(cardTemplate.content.cloneNode(true));
+      }
+
+      fetch("leadacademy.json")
+        .then((response) => response.json())
+        .then((posts) => {
+          container.innerHTML = "";
+          posts.forEach((post) => {
+            const div = cardTemplate.content.cloneNode(true);
+            div.getElementById("course-img").src = post.courseImage;
+            div.getElementById("course-title").textContent = post.courseTitle;
+            div.getElementById("review-img").src = post.reviewImage;
+            div.getElementById("regular-price").textContent = post.regularPrice;
+            div.getElementById("sale-price").textContent = post.salePrice;
+            div.getElementById("short-title").textContent = post.shortTitle;
+            div.getElementById("course-link").href = post.courseLink;
+            container.append(div);
+          });
+        });
+    </script>
+  </body>
+</html>
